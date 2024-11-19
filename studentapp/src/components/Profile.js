@@ -1,10 +1,11 @@
-export default function(props){
+
+export default function Profile(props){
     return(
         <>
         <table>
             <tr>
                 <td rowSpan={7}>
-                  <img className='profile' src={require('../assets/img/'+props.stu.profilePic)}  alt="Profile Pictures"/> 
+                  <img className='profile' src={require('../assets/img/' + props.stu.profilePic)}  alt="Profile Pictures"/> 
                 </td>
                 <td>ID {props.stu.studentId}</td>
             </tr>
@@ -21,7 +22,7 @@ export default function(props){
                 <td>Address:{props.stu.address.city + ","+props.stu.country}</td>
             </tr>
             <tr>
-                <td>Skills:{props.stu.skills.map(skill=>skill+=", ")}</td>
+                <td>Skills:{props.stu.skills.map(skill => skill += ", ")}</td>
             </tr>
         </table>
         </>

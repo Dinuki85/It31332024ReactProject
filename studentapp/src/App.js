@@ -5,6 +5,7 @@ import StudentTable from './components/StudentTable';
 
 function App() {
   return (
+    <>
     <div className="App">
      <h1>Students Information Portal</h1>
      <hr/>
@@ -20,6 +21,7 @@ function App() {
         </tbody>
       </table>
     </div>
+    </>
   );
 }
 
