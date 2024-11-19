@@ -8,7 +8,7 @@ function App() {
     <div className="App">
      <h1>Students Information Portal</h1>
      <hr/>
-     <table>
+     <table width="100%">
         <tbody>
           <tr>
             <td>
